@@ -1,0 +1,14 @@
+
+
+> @payloadcms/plugin-form-builder@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-form-builder
+> pnpm build:types && pnpm build:swc
+
+
+> @payloadcms/plugin-form-builder@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-form-builder
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/plugin-form-builder@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-form-builder
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 27 files with swc (262.62ms)

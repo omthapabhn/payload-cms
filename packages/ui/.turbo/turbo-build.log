@@ -1,0 +1,280 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> pnpm build:reactcompiler
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 build:reactcompiler /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> rm -rf dist esbuild && rm -rf tsconfig.tsbuildinfo && pnpm build:swc && pnpm build:babel && pnpm copyfiles && pnpm build:esbuild && pnpm build:esbuild:postprocess && pnpm build:types
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> swc ./src -d dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 574 files with swc (747.77ms)
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 build:babel /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> rm -rf dist_optimized && babel dist --out-dir dist_optimized --source-maps --extensions .ts,.js,.tsx,.jsx,.cjs,.mjs && rm -rf dist && mv dist_optimized dist
+
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/@types/assets.d.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/assets/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/AddNewRelation/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/AnimateHeight/usePatchAnimateHeight.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/BulkUpload/EditForm/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/BulkUpload/FormsManager/createFormData.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/BulkUpload/FormsManager/reducer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Button/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/CheckboxPopup/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ClipboardAction/clipboardUtilities.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ClipboardAction/isClipboardDataValid.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ClipboardAction/mergeFormStateFromClipboard.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ClipboardAction/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/CloseModalButton/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/CodeEditor/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/DatePicker/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/DocumentDrawer/Provider.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/DocumentDrawer/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/DraggableSortable/DraggableSortableItem/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/DraggableSortable/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/DraggableSortable/useDraggableSortable/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Drawer/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/DrawerContentContainer/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FieldDiffContainer/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FieldDiffLabel/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FieldSelect/reduceFieldOptions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/BrowseByFolderButton/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/Cell/index.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/ColoredFolderIcon/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/CurrentFolderActions/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/DragOverlaySelection/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/DraggableWithClick/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/Drawers/EditFolderAction/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/FolderField/index.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/FolderTypeField/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/SortByPill/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/FolderView/ToggleViewButtons/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/HTMLDiff/diff/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/HTMLDiff/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Link/formatUrl.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ListControls/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ListControls/useQueryPresets.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ListDrawer/Provider.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ListDrawer/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ListHeader/DrawerTitleActions/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ListHeader/TitleActions/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ListHeader/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/LivePreview/Toggler/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/LoadingOverlay/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/NoListResults/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/PageControls/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Popup/PopupDivider/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Popup/PopupGroupLabel/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Popup/PopupTrigger/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/PublishButton/ScheduleDrawer/buildUpcomingColumns.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/PublishButton/ScheduleDrawer/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/PublishMany/DrawerContent.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/QueryPresets/cells/AccessCell/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/QueryPresets/cells/ColumnsCell/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/QueryPresets/cells/WhereCell/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ReactSelect/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/RenderComponent/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/RenderCustomComponent/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/RenderServerComponent/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/SearchBar/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/SelectMany/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/StepNav/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/StickyToolbar/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Table/OrderableRow.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Table/OrderableRowDragPreview.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Table/RelationshipProvider/reducer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Thumbnail/createThumbnail.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/TimezonePicker/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/Translation/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/UnpublishMany/DrawerContent.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/ViewDescription/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/Date/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/DefaultFilter/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/Number/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/Relationship/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/Select/formatOptions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/Select/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/Text/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/Condition/validOperators.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WhereBuilder/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/WithServerSideProps/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/elements/withMergedProps/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/exports/rsc/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/fields/Password/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/fields/Relationship/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/fields/Text/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/fields/Textarea/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/fields/Upload/UploadCard/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/fields/Upload/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/fields/mergeFieldStyles.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/Form/reduceToSerializableFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/Form/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/RenderFields/context.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/RenderFields/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/RowLabel/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/addFieldStatePromise.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/calculateDefaultValues/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/calculateDefaultValues/iterateFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/calculateDefaultValues/promise.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/fieldSchemasToFormState.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/isRowCollapsed.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/iterateFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/renderField.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/fieldSchemasToFormState/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/forms/useField/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/graphics/Account/Default/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/graphics/DefaultBlockImage/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/graphics/File/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/graphics/Icon/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/graphics/Logo/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/hooks/useClickOutside.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/hooks/useControllableState.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/hooks/useQueues.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/hooks/useThrottledValue.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Calendar/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Check/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Chevron/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/CloseMenu/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/CodeBlock/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Copy/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Document/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Dots/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/DragHandle/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Edit/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/ExternalLink/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Eye/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Folder/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/GridView/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Line/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Link/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/ListView/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Lock/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/LogOut/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Menu/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/MinimizeMaximize/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/More/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/MoveFolder/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/People/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Plus/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Search/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Sort/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Swap/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/ThreeDots/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/Trash/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/icons/X/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/ClickOutside/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/DocumentInfo/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/DocumentInfo/useGetDocPermissions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/DocumentTitle/context.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/DocumentTitle/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/Folders/groupItemIDsByRelation.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/ListQuery/context.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/ListQuery/mergeQuery.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/ListQuery/sanitizeQuery.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/ListQuery/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/LivePreview/collisionDetection.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/LivePreview/sizeReducer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/ServerFunctions/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/buildColumnState/filterFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/buildColumnState/findValueFromPath.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/buildColumnState/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/buildColumnState/isColumnActive.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/buildColumnState/renderCell.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/buildColumnState/sortFieldMap.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/context.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/getInitialColumns.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/providers/TableColumns/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/abortAndIgnore.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/api.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/buildClientFieldSchemaMap/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/buildClientFieldSchemaMap/traverseFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/buildFieldSchemaMap/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/buildFieldSchemaMap/traverseFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/buildFormState.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/buildTableState.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/canUseDOM.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/combineFieldLabel.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/copyDataFromLocale.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/dateLocales.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/deepMerge.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/fetchPreferences.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/filterOutUploadFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/findLocaleFromCode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/formatAdminURL.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/formatDocTitle/formatDateTitle.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/formatDocTitle/formatLexicalDocTitle.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/formatDocTitle/formatRelationshipTitle.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/formatDocTitle/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/formatFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/generateFieldID.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getClientConfig.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getClientSchemaMap.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getDisplayedFieldValue.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getFolderResultsComponentAndData.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getOffsetTop.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getRequestLanguage.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getSchemaMap.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/getSupportedMonacoLocale.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/groupNavItems.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/handleBackToDashboard.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/handleFormStateLocking.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/handleGoBack.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/handleTakeOver.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/hasOptionLabelJSXElement.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/hasSavePermission.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/isClientUserObject.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/isEditing.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/isURLAllowed.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/isValidReactElement.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/parseSearchParams.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/reduceFieldsToValuesWithValidation.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/removeUndefined.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/renderTable.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/resolveFilterOptions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/sanitizeFilterOptionsQuery.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/sanitizeID.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/schedulePublishHandler.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/scrollToID.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/setsAreEqual.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/utilities/upsertPreferences.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/views/Edit/Auth/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/views/Edit/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/views/List/GroupByHeader/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/views/List/ListHeader/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui/dist/views/List/types.js
+Successfully compiled 574 files with Babel (26674ms).
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 copyfiles /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> copyfiles -u 1 "src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png,json}" dist/
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 build:esbuild /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> node bundle.js
+
+styles.css bundled successfully
+(node:87480) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+client.ts bundled successfully
+shared.ts bundled successfully
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 build:esbuild:postprocess /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> rm -rf dist/exports/client && mv dist/exports/client_optimized dist/exports/client && rm -rf dist/exports/shared && mv dist/exports/shared_optimized dist/exports/shared
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/ui@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/ui
+> tsc --emitDeclarationOnly --outDir dist
+

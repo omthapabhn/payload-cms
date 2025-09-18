@@ -1,0 +1,14 @@
+
+
+> @payloadcms/db-mongodb@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-mongodb
+> pnpm build:types && pnpm build:swc
+
+
+> @payloadcms/db-mongodb@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-mongodb
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/db-mongodb@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-mongodb
+> swc ./src -d ./dist --config-file .swcrc-build --strip-leading-paths
+
+Successfully compiled: 65 files with swc (154.5ms)

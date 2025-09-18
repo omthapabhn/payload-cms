@@ -1,0 +1,14 @@
+
+
+> @payloadcms/graphql@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/graphql
+> pnpm build:types && pnpm build:swc
+
+
+> @payloadcms/graphql@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/graphql
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/graphql@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/graphql
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 62 files with swc (62.76ms)

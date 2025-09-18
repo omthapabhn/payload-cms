@@ -1,0 +1,22 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-slate@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-slate
+> pnpm copyfiles && pnpm build:types && pnpm build:swc
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-slate@3.50.0 copyfiles /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-slate
+> copyfiles -u 1 "src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png,json}" dist/
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-slate@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-slate
+> tsc --emitDeclarationOnly --outDir dist
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-slate@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-slate
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 142 files with swc (347.89ms)

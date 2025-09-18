@@ -1,0 +1,14 @@
+
+
+> @payloadcms/db-sqlite@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-sqlite
+> pnpm build:swc && pnpm build:types
+
+
+> @payloadcms/db-sqlite@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-sqlite
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 21 files with swc (107.79ms)
+
+> @payloadcms/db-sqlite@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-sqlite
+> tsc --emitDeclarationOnly --outDir dist
+

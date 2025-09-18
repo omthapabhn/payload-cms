@@ -1,0 +1,18 @@
+
+
+> @payloadcms/plugin-stripe@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-stripe
+> pnpm copyfiles && pnpm build:types && pnpm build:swc
+
+
+> @payloadcms/plugin-stripe@3.50.0 copyfiles /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-stripe
+> copyfiles -u 1 "src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png,json}" dist/
+
+
+> @payloadcms/plugin-stripe@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-stripe
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/plugin-stripe@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-stripe
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 17 files with swc (35.52ms)

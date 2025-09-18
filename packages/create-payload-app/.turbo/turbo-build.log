@@ -1,0 +1,22 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> create-payload-app@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/create-payload-app
+> pnpm pack-template-files && pnpm typecheck && pnpm build:swc
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> create-payload-app@3.50.0 pack-template-files /Users/othap00/payload-cms/payload-cms/payload-cms/packages/create-payload-app
+> node --no-deprecation --import @swc-node/register/esm-register src/scripts/pack-template-files.ts
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> create-payload-app@3.50.0 typecheck /Users/othap00/payload-cms/payload-cms/payload-cms/packages/create-payload-app
+> tsc
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> create-payload-app@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/create-payload-app
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 31 files with swc (39.91ms)

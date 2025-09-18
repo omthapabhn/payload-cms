@@ -1,0 +1,349 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> pnpm build:reactcompiler
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 build:reactcompiler /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> rm -rf dist && rm -rf tsconfig.tsbuildinfo && pnpm build:swc && pnpm build:babel && pnpm copyfiles && pnpm build:esbuild && pnpm build:esbuild:postprocess && pnpm build:types
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 472 files with swc (20.95ms)
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 build:babel /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> rm -rf dist_optimized && babel dist --out-dir dist_optimized --source-maps --extensions .ts,.js,.tsx,.jsx,.cjs,.mjs && rm -rf dist && mv dist_optimized dist
+
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/cell/rscEntry.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/dependencyChecker.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/cssEntry.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/html/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/html-async/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/plaintext/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/react/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/server/ast/mdx.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/server/migrate.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/server/rsc.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/exports/shared.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/align/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/align/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blockquote/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blockquote/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blockquote/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/client/getBlockImageComponent.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/client/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/graphQLPopulationPromise.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/linesFromMatchToContentAndPropsString.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/nodes/BlocksNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/nodes/InlineBlocksNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/blocks/server/validate.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/htmlToLexical/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/blockquote.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/heading.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/horizontalRule.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/linebreak.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/link.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/list.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/paragraph.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/tab.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/table.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/text.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/converters/upload.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/defaultConverters.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/field/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/async/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/shared/findConverterForNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/shared/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/blockquote.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/heading.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/horizontalRule.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/linebreak.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/link.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/list.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/paragraph.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/tab.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/table.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/text.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/converters/upload.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/defaultConverters.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml/sync/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/converter/converters/linebreak.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/converter/converters/paragraph.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/converter/converters/tab.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/converter/converters/text.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/converter/defaultConverters.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/converter/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/converter/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/field/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToHtml_deprecated/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/Component/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/blockquote.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/heading.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/horizontalRule.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/linebreak.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/link.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/list.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/paragraph.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/tab.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/table.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/text.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/converters/upload.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/defaultConverters.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToJSX/converter/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToMarkdown/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToPlaintext/convertLexicalToPlaintext.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToPlaintext/shared/findConverterForNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToPlaintext/shared/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToPlaintext/sync/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/lexicalToPlaintext/sync/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/markdownToLexical/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/utilities/payloadPopulateFn.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/converters/utilities/restPopulateFn.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/debug/jsxConverter/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/debug/testRecorder/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/debug/treeView/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/experimental_table/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/experimental_table/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/bold/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/bold/markdownTransformers.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/inlineCode/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/inlineCode/markdownTransformers.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/italic/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/italic/markdownTransformers.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/strikethrough/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/strikethrough/markdownTransformers.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/subscript/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/superscript/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/format/underline/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/heading/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/heading/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/heading/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/horizontalRule/client/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/horizontalRule/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/horizontalRule/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/horizontalRule/server/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/horizontalRule/server/nodes/HorizontalRuleNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/indent/client/IndentPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/indent/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/indent/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/client/plugins/floatingLinkEditor/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/nodes/AutoLinkNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/nodes/LinkNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/nodes/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/server/baseFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/server/graphQLPopulationPromise.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/server/transformExtraFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/link/server/validate.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/checklist/markdownTransformers.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/checklist/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/checklist/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/htmlConverter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/orderedList/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/orderedList/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/orderedList/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/shared/markdown.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/shared/slashMenuListGroup.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/unorderedList/markdownTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/unorderedList/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/lists/unorderedList/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/converters/heading/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/converters/link/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/converters/list/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/converters/listItem/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/converters/quote/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/converters/unknown/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/converters/upload/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/defaultConverters.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/converter/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/lexicalPluginToLexical/nodes/unknownConvertedNode/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/blockquote/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/heading/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/indent/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/link/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/listItem/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/orderedList/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/relationship/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/unknown/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/unorderedList/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/converters/upload/converter.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/defaultConverters.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/converter/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/migrations/slateToLexical/nodes/unknownConvertedNode/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/paragraph/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/paragraph/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/relationship/client/drawer/commands.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/relationship/server/graphQLPopulationPromise.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/relationship/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/relationship/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/relationship/server/nodes/RelationshipNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/shared/slashMenu/basicGroup.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/shared/toolbar/addDropdownGroup.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/shared/toolbar/featureButtonsGroup.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/shared/toolbar/textDropdownGroup.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/textState/defaultColors.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/textState/feature.server.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/textState/textState.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/toolbars/fixed/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/toolbars/inline/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/toolbars/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/typeUtilities.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/typesClient.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/typesServer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/upload/server/graphQLPopulationPromise.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/upload/server/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/upload/server/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/upload/server/nodes/UploadNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/features/upload/server/validate.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/field/Diff/converters/link.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/field/Diff/converters/listitem/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/field/Diff/converters/relationship/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/field/Diff/converters/unknown/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/field/Diff/converters/upload/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/field/Diff/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/field/rscEntry.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/getDefaultSanitizedEditorConfig.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/i18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/config/server/default.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/config/server/loader.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/config/server/sanitize.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/config/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/nodes/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/plugins/NormalizeSelection/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/plugins/SelectAllPlugin/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/plugins/SlashMenu/LexicalTypeaheadMenuPlugin/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/theme/EditorTheme.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/ui/icons/TextState/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/utils/markdown/createBlockNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/utils/nodeFormat.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/utils/url.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical/utils/url.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-headless.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-html.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-link.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-list.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-mark.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-markdown.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalAutoEmbedPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalAutoFocusPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalAutoLinkPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalBlockWithAlignableContents.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalCharacterLimitPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalCheckListPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalClearEditorPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalClickableLinkPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalCollaborationContext.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalCollaborationPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalComposer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalComposerContext.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalContentEditable.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalContextMenuPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalDecoratorBlockNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalDraggableBlockPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalEditorRefPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalErrorBoundary.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalHashtagPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalHistoryPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalHorizontalRuleNode.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalHorizontalRulePlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalLinkPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalListPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalMarkdownShortcutPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalNestedComposer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalNodeEventPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalNodeMenuPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalOnChangePlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalPlainTextPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalRichTextPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalTabIndentationPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalTableOfContentsPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalTablePlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalTreeView.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/LexicalTypeaheadMenuPlugin.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/useLexicalEditable.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/useLexicalIsTextContentEmpty.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/useLexicalNodeSelection.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/useLexicalSubscription.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-react/useLexicalTextEntity.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-rich-text.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-selection.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/@lexical-utils.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/lexical-proxy/lexical.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/nodeTypes.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/MarkdownExport.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/MarkdownImport.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/MarkdownShortcuts.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/MarkdownTransformers.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/importTextFormatTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/importTextMatchTransformer.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/importTextTransformers.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/packages/@lexical/markdown/utils.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/populateGraphQL/defaultValue.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/populateGraphQL/populate.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/populateGraphQL/populateLexicalPopulationPromises.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/populateGraphQL/recursivelyPopulateFieldsForGraphQL.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/buildInitialState.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/createClientFeature.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/createServerFeature.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/editorConfigFactory.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/forEachNodeRecursively.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/generateImportMap.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/generateSchemaMap.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/initLexicalFeatures.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/jsx/collectTopLevelJSXInLines.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/jsx/declare.d.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/jsx/extractPropsFromJSXPropsString.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/jsx/jsx.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/jsx/jsx.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/migrateSlateToLexical/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/migrateSlateToLexical/migrateDocumentFieldsRecursively.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/recurseNodeTree.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/upgradeLexicalData/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/utilities/upgradeLexicalData/upgradeDocumentFieldsRecursively.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/validate/hasText.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/validate/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical/dist/validate/validateNodes.js
+Successfully compiled 472 files with Babel (17117ms).
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 copyfiles /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> copyfiles -u 1 "src/**/*.{html,css,ttf,woff,woff2,eot,svg,jpg,png,json}" dist/
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 build:esbuild /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> node bundle.js
+
+dist/field/bundled.css bundled successfully
+client/index.ts bundled successfully
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 build:esbuild:postprocess /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> rm -rf dist/exports/client && mv dist/exports/client_optimized dist/exports/client
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/richtext-lexical@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/richtext-lexical
+> tsc --emitDeclarationOnly --outDir dist
+

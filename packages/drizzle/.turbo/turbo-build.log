@@ -1,0 +1,14 @@
+
+
+> @payloadcms/drizzle@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/drizzle
+> pnpm build:swc && pnpm build:types
+
+
+> @payloadcms/drizzle@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/drizzle
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 125 files with swc (277.6ms)
+
+> @payloadcms/drizzle@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/drizzle
+> tsc --emitDeclarationOnly --outDir dist
+

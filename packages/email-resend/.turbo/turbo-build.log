@@ -1,0 +1,17 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/email-resend@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/email-resend
+> pnpm build:types && pnpm build:swc
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/email-resend@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/email-resend
+> tsc --emitDeclarationOnly --outDir dist
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/email-resend@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/email-resend
+> swc ./src -d ./dist --config-file .swcrc-build --strip-leading-paths
+
+Successfully compiled: 1 file with swc (136.18ms)

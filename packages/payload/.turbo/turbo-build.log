@@ -1,0 +1,23 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> payload@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/payload
+> rimraf .dist && rimraf tsconfig.tsbuildinfo && pnpm copyfiles && pnpm build:types && pnpm build:swc && echo skipping esbuild
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> payload@3.50.0 copyfiles /Users/othap00/payload-cms/payload-cms/payload-cms/packages/payload
+> copyfiles -u 1 "src/**/*.{html,ttf,woff,woff2,eot,svg,jpg,png,json}" dist/
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> payload@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/payload
+> tsc --emitDeclarationOnly --outDir dist
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> payload@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/payload
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 576 files with swc (243.2ms)
+skipping esbuild

@@ -1,0 +1,181 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> pnpm build:reactcompiler
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 build:reactcompiler /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> rm -rf dist && rm -rf tsconfig.tsbuildinfo && pnpm build:swc && pnpm build:babel && pnpm copyfiles && pnpm build:types && pnpm build:esbuild  && pnpm build:cjs
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 182 files with swc (180.85ms)
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 build:babel /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> rm -rf dist_optimized && babel dist --out-dir dist_optimized --source-maps --extensions .ts,.js,.tsx,.jsx,.cjs,.mjs && rm -rf dist && mv dist_optimized dist
+
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/auth/login.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/auth/logout.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/auth/refresh.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/config.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/DocumentHeader/Tabs/Tab/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/DocumentHeader/Tabs/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/DocumentHeader/Tabs/tabs/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/DocumentHeader/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/FormHeader/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/Logo/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/Nav/getNavPrefs.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/elements/Nav/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/esbuildEntry.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/exports/auth.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/exports/layouts.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/exports/routes.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/exports/templates.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/exports/utilities.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/exports/views.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/layouts/Root/NestProviders.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/layouts/Root/checkDependencies.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/layouts/Root/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/routes/graphql/handler.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/routes/graphql/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/routes/graphql/playground.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/routes/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/routes/rest/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/routes/rest/og/image.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/routes/rest/og/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/templates/Default/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/templates/Minimal/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/getExistingAuthToken.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/getNextRequestI18n.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/getPayloadHMR.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/getPreferences.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/getRequestLocale.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/getRequestTheme.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/handleServerFunctions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/initPage/handleAdminPage.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/initPage/handleAuthRedirect.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/initPage/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/initPage/isCustomAdminView.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/initPage/shared.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/initPage/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/initReq.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/meta.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/selectiveCache.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/setPayloadAuthCookie.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/utilities/timestamp.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/API/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/API/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Account/Settings/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Account/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Account/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/BrowseByFolder/buildView.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/BrowseByFolder/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/BrowseByFolder/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CollectionFolders/buildView.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CollectionFolders/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CollectionFolders/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CollectionFolders/renderFolderViewSlots.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CollectionTrash/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CollectionTrash/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CreateFirstUser/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/CreateFirstUser/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Dashboard/Default/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Dashboard/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Dashboard/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getCustomViewByKey.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getCustomViewByRoute.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getDocPreferences.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getDocumentData.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getDocumentPermissions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getDocumentView.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getIsLocked.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getMetaBySegment.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/getVersions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/handleServerFunction.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Document/renderDocumentSlots.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Edit/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/ForgotPassword/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/ForgotPassword/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/List/handleGroupBy.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/List/handleServerFunction.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/List/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/List/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/List/renderListViewSlots.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/List/resolveAllFilterOptions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Login/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Login/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Logout/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Logout/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/NotFound/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/NotFound/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/ResetPassword/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/ResetPassword/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/attachViewActions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/generateCustomViewMetadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/getCustomViewByRoute.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/getDocumentViewInfo.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/getRouteData.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/isPathMatchingRoute.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Root/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Unauthorized/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Unauthorized/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Verify/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Verify/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/Default/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/buildVersionFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/fields/Relationship/generateLabelFromValue.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/fields/Relationship/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/fields/Upload/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/fields/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/utilities/countChangedFields.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/utilities/countChangedFields.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/utilities/fieldHasChanges.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/utilities/fieldHasChanges.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/utilities/getFieldPathsModified.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/utilities/getFieldsForRowComparison.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/RenderFieldsToDiff/utilities/getFieldsForRowComparison.spec.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/SelectComparison/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/VersionPillLabel/getVersionLabel.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/fetchVersions.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Version/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Versions/buildColumns.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Versions/index.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Versions/metadata.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/views/Versions/types.js
+React compiler - skipping file: /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next/dist/withPayload.js
+Successfully compiled 182 files with Babel (8905ms).
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 copyfiles /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> copyfiles -u 1 "src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png,json}" dist/
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> tsc --emitDeclarationOnly --outDir dist
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 build:esbuild /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> node bundleScss.js
+
+styles.css bundled successfully
+Files renamed and deleted successfully
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v20.6.0","pnpm":"9.7.1"})
+
+> @payloadcms/next@3.50.0 build:cjs /Users/othap00/payload-cms/payload-cms/payload-cms/packages/next
+> swc ./src/withPayload.js -o ./dist/cjs/withPayload.cjs --config-file .swcrc-cjs --strip-leading-paths
+
+Successfully compiled 1 file with swc.

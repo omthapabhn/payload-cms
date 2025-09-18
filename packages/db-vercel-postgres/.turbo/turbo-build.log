@@ -1,0 +1,24 @@
+
+
+> @payloadcms/db-vercel-postgres@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-vercel-postgres
+> rimraf .dist && rimraf tsconfig.tsbuildinfo  && pnpm build:types && pnpm build:swc && pnpm build:esbuild && pnpm renamePredefinedMigrations
+
+
+> @payloadcms/db-vercel-postgres@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-vercel-postgres
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/db-vercel-postgres@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-vercel-postgres
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 10 files with swc (86.07ms)
+
+> @payloadcms/db-vercel-postgres@3.50.0 build:esbuild /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-vercel-postgres
+> echo skipping esbuild
+
+skipping esbuild
+
+> @payloadcms/db-vercel-postgres@3.50.0 renamePredefinedMigrations /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-vercel-postgres
+> node --no-deprecation --import @swc-node/register/esm-register ./scripts/renamePredefinedMigrations.ts
+
+done

@@ -1,0 +1,14 @@
+
+
+> @payloadcms/translations@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/translations
+> pnpm build:types && pnpm build:swc
+
+
+> @payloadcms/translations@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/translations
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/translations@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/translations
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 55 files with swc (56.59ms)

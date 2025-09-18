@@ -1,0 +1,18 @@
+
+
+> @payloadcms/plugin-multi-tenant@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-multi-tenant
+> pnpm copyfiles && pnpm build:types && pnpm build:swc
+
+
+> @payloadcms/plugin-multi-tenant@3.50.0 copyfiles /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-multi-tenant
+> copyfiles -u 1 "src/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png,json}" dist/
+
+
+> @payloadcms/plugin-multi-tenant@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-multi-tenant
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/plugin-multi-tenant@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/plugin-multi-tenant
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 72 files with swc (235.65ms)

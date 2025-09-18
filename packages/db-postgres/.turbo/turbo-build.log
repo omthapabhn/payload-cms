@@ -1,0 +1,24 @@
+
+
+> @payloadcms/db-postgres@3.50.0 build /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-postgres
+> rimraf .dist && rimraf tsconfig.tsbuildinfo  && pnpm build:types && pnpm build:swc && pnpm build:esbuild && pnpm renamePredefinedMigrations
+
+
+> @payloadcms/db-postgres@3.50.0 build:types /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-postgres
+> tsc --emitDeclarationOnly --outDir dist
+
+
+> @payloadcms/db-postgres@3.50.0 build:swc /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-postgres
+> swc ./src -d ./dist --config-file .swcrc --strip-leading-paths
+
+Successfully compiled: 10 files with swc (67.88ms)
+
+> @payloadcms/db-postgres@3.50.0 build:esbuild /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-postgres
+> echo skipping esbuild
+
+skipping esbuild
+
+> @payloadcms/db-postgres@3.50.0 renamePredefinedMigrations /Users/othap00/payload-cms/payload-cms/payload-cms/packages/db-postgres
+> node --no-deprecation --import @swc-node/register/esm-register ./scripts/renamePredefinedMigrations.ts
+
+done
